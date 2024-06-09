@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+/* first section */
+
+.first-section {
+  background-color: #1F2937;
+}
+
+.first-section nav {
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 100px 0;
+  padding-top: 10px;
+}
+
+nav h1 {
+  font-size: 24px;
+}
+
+.first-section ul {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.first-section section {
+  margin: 0 200px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #F9FAF8;
+  margin: 10px 0;
+}
+
+.hero-content {
+  display: flex;
+}
+
+.hero-flex-item {
+  flex: 1;
+}
+
+.hero-flex-item .left {
+  width: 10px;
+}
+
+.sign-up-btn {
+  color: #fff;
+  background-color: #2196F3;
+  padding: 6px 24px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  float: right;
+  margin-bottom: 100px;
+}
+
+/* second section */
+
+.second-section h2 {
+  color: #1F2937;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin: 36px 0;
+}
+
+.second-section .flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 100px;
+}
+
+.second-section .flex-container .flex-item {
+  width: 150px;
+  text-align: center;
+}
+
+.second-section .flex-container .flex-box {
+  border: 4px solid #3882F6;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* third section */
+
+.third-section {
+  background-color: #E5E7EB;
+  
+}
+
+.third-section .wrapper {
+  margin: 0 360px;
+  padding: 100px 0;
+}
+
+.third-section h3 {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+.third-section p {
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* fourth section */
+
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  color: #F9FAF8;
+}
+
+.blue-wrapper {
+  height: 120px;
+  width: 1000px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  margin: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-wrapper section {
+  display: flex;
+  gap: 50px;
+}
+
+.blue-wrapper h4 {
+  font-size: 24px;
+}
+
+.blue-wrapper button {
+  color: #fff;
+  background-color: #3882F6;
+  padding: 6px 24px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 30px 0;
+}
